@@ -1,0 +1,18 @@
+name: "Ink Stroke Modeler"
+description:
+  "Library that smooths raw freehand input and predicts the input's motion "
+  "to minimize display latency."
+
+third_party {
+  url {
+    type: HOMEPAGE
+    value: "https://google.github.io/ink-stroke-modeler/"
+  }
+  url {
+    type: GIT
+    value: "https://github.com/google/ink-stroke-modeler"
+  }
+  version: "789fe66bb8fecd066288d6b7b4466da5d3026ded"
+  last_upgrade_date { year: 2022 month: 3 day: 29 }
+  license_type: NOTICE
+}
