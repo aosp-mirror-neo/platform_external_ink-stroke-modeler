@@ -17,7 +17,8 @@ use the [GoogleTest](https://google.github.io/googletest/) framework.
 ## Related
 
 [Google Ink](https://github.com/google/ink): More comprehensive freehand stroke
-generation library, depends on Ink Stroke Modeler.
+generation library. Originally depended on Ink Stroke Modeler, has since
+migrated to a newer input-smoothing implementation.
 
 [ink-stroke-modeler-ts](https://github.com/WhiteboardCX/ink-stroke-modeler-ts):
 Dependency-free TypeScript port of this library (not Google-maintained).
