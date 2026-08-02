@@ -20,7 +20,7 @@ jobs:
     runs-on: ${{ matrix.os }}
 
     env:
-        USE_BAZEL_VERSION: 8.5.1
+        USE_BAZEL_VERSION: 8.7.0
 
     steps:
     - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1

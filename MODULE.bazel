@@ -12,28 +12,31 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# When this is updated, the lockfile should be regenerated with:
+# bazel-8.7.0 mod deps --lockfile_mode=update
+
 bazel_dep(
     name = "abseil-cpp",
-    version = "20250512.0",
+    version = "20260526.0",
 )
 
 bazel_dep(
     name = "googletest",
-    version = "1.17.0",
+    version = "1.17.0.bcr.2",
     dev_dependency = True,
 )
 
-bazel_dep(name = "platforms", version = "0.0.11")
+bazel_dep(name = "platforms", version = "1.1.0")
 bazel_dep(name = "rules_android", version = "0.6.0")
-bazel_dep(name = "rules_cc", version = "0.2.2")
+bazel_dep(name = "rules_cc", version = "0.2.18")
 
 bazel_dep(
     name = "fuzztest",
-    version = "20250805.0",
+    version = "20260629.0",
     dev_dependency = True,
 )
 
-bazel_dep(name = "protobuf", version = "31.1")
+bazel_dep(name = "protobuf", version = "33.5")
 
 # For toolchains
 bazel_dep(name = "toolchains_llvm", version = "1.5.0")
